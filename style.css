@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  background-color: #121417;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+.hidden {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+.card {
+  background-color: #252d37;
+  border-radius: 1.5rem;
+  width: 35rem;
+  padding: 2rem 3rem;
+}
+.star {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: #232931;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.star i {
+  color: #fb7413;
+  font-size: 1.4rem;
+}
+.heading {
+  padding: 1.3rem 0 1rem 0;
+  margin-top: 5px;
+}
+.heading h1 {
+  color: #ffffff;
+  font-family: Overpass;
+  font-size: 2.3rem;
+  font-weight: 400;
+  margin-left: 0.4rem;
+}
+.text {
+  padding: 0.5rem;
+}
+.text p {
+  font-size: 1.5rem;
+  color: #959eac;
+  /* line-height: 1.8rem; */
+}
+.count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: #959eac; */
+  padding: 1.5rem 0.2rem;
+}
+.circle {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  /* background: #39424e; */
+  background: #2b323b;
+  color: #959eac;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle:hover {
+  background-color: #ffffff;
+  color: #121417;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 3rem 1rem 3rem;
+}
+.btn {
+  padding: 1rem 12rem;
+  background-color: #fb7413;
+  border: none;
+  border-radius: 3rem;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+/* Thank_You Card */
+.thanku-card {
+  background-color: #252d37;
+  border-radius: 1.5rem;
+  width: 35rem;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.txt {
+  background-color: #2b323b;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  color: #fb7413bd;
+}
+.thank-you-container {
+  text-align: center;
+  padding: 0.1rem 2rem 2rem 2rem;
+  width: 30rem;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.thank-you-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.13rem;
+  color: #8c8c8c;
+  line-height: 1.5;
+}
